@@ -46,4 +46,19 @@ public class Division {
 		return num1 / num2;
 	}
 	
+	/**
+	 * <b>Método 3:</b> Inverso de un número real, tendrá un parámetro de entrada y uno de salida que será la solución.
+	 * 
+	 * @param num1
+	 * 			Número que introduce el usuario (double)
+	 * 
+	 * 
+	 * @return <b>div3</b>
+	 * 			Resultado es 1 y se obtiene de num1 = num1 (-1) (double)
+	 */
+
+	public double multiplicar3 (double num1) {
+		return num1;
+	}
+	
 }
