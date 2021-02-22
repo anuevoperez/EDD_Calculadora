@@ -61,4 +61,19 @@ public class Division {
 		return num1;
 	}
 	
+	/**
+	 * <b>Método 4:</b> Raíz de un número, tendrá un parámetro de entrada y uno de salida que será la solución
+	 * 
+	 * @param num1
+	 * 			Número que introduce el usuario (double)
+	 * 
+	 * @return <b>div4</b>
+	 * 			Devolverá el resultado de Math.sqrt(num1). (double)
+	 * 
+	 */
+		
+	public double dividir4 (double num1) {
+		return  Math.sqrt(num1);
+	}
+	
 }
