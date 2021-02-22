@@ -28,4 +28,22 @@ public class Division {
 	public double dividir1 (double num1, double num2) {
 		return num1 / num2;
 	}
+	
+	/** 
+	 * <b>Método 2:</b> División de dos números enteros (los reales incluye a los enteros, pero los enternos son valores cuyos elementos de su conjunto númerico
+	 * contiene los números naturales), dicha operación tendrá 2 parámetros de entrada y uno de salida que será la solución. 
+	 * 
+	 * @param num1 
+	 * 			Primer número que introduce el usuario: es dividendo (int)
+	 * @param num2 
+	 * 			Segundo número que introduce el usuario: es el divisor (int)
+	 * 
+	 * @return <b>div2</b>
+	 * 			Resultado del cociente de num1 entre num2 (int)
+	 */
+
+	public int dividir2 (int num1, int num2) {
+		return num1 / num2;
+	}
+	
 }
