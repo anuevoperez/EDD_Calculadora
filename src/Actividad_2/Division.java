@@ -25,7 +25,10 @@ public class Division {
 	 * 
 	 */
 
-	public double dividir1 (double num1, double num2) {
+	public double dividir1 (double num1, double num2) throws Exception {
+		if(num2==0) {
+			throw new Exception("No se puede dividir entre 0 porque obtendrémos una excepción de valor aritmético, pues el resultado es igual a infinito.");
+		}
 		return num1 / num2;
 	}
 	
@@ -42,7 +45,10 @@ public class Division {
 	 * 			Resultado del cociente de num1 entre num2 (int)
 	 */
 
-	public int dividir2 (int num1, int num2) {
+	public int dividir2 (int num1, int num2) throws Exception {
+		if(num2==0) {
+			throw new Exception("No se puede dividir entre 0 porque obtendrémos una excepción de valor aritmético, pues el resultado es igual a infinito.");
+		}
 		return num1 / num2;
 	}
 	
@@ -57,8 +63,12 @@ public class Division {
 	 * 			Resultado es 1 y se obtiene de num1 = num1 (-1) (double)
 	 */
 
-	public double multiplicar3 (double num1) {
-		return num1;
+	public double dividir3 (double num1) throws Exception {
+		if(num1==0) {
+			throw new Exception("No se puede calcular el inverso de 0 porque obtendrémos una excepción de valor aritmético, pues el resultado es igual a infinito");
+		}
+		return 1/num1;
+		
 	}
 	
 	/**
@@ -72,8 +82,10 @@ public class Division {
 	 * 
 	 */
 		
-	public double dividir4 (double num1) {
+	public double dividir4 (double num1) throws Exception {
+		if(num1<0) {
+			throw new Exception("La raíz solo se pueden calcular de números positivos");
+		}
 		return  Math.sqrt(num1);
 	}
-	
 }
