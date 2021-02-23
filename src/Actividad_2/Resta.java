@@ -53,4 +53,23 @@ public class Resta {
 		return num1 - num2 - num3;
 	}
 	
+	/** 
+	 *<b>Método 4:</b>  Resta con valor acumulado, tendrá un parámetro de entrada y la clase deberá de guardar el valor acumulado.
+	 *  
+	 * @param num1 
+	 * 			Representa el número a restar que introduce el usuario para que se reste al acumulado en memoria (double)
+	 *
+	 * @return <b>rest4</b> 
+	 * 			Devuelve la resta de acum y num1 (double)
+	 */
+	
+	double acum = 0;
+	
+	public double restar4 (double num1) {
+		
+		double rest4 = acum - num1;
+		acum = rest4;
+		return rest4;
+	}
+	
 }
