@@ -35,6 +35,22 @@ public class Resta {
 		return num1 - num2;
 	}
 	
+	/** 
+	 * <b>Método 3:</b>  Resta de tres números reales, tendrá 3 parámetros de entrada y uno de salida que será la solución.
+	 * 
+	 * @param num1 
+	 * 			Primer número a restar que introduce el usuario (double)
+	 * @param num2 
+	 * 			Segundo número que a estar introduce el usuario (double)
+	 * @param num3 
+	 * 			Tercer número que a restar introduce el usuario (double)
+	 *
+	 * @return <b>rest3</b> 
+	 * 			Devuelve la resta de los parámetros num1, num2 y num3 (double)
+	 */
 	
+	public double restar3 (double num1, double num2, double num3) {
+		return num1 - num2 - num3;
+	}
 	
 }
