@@ -32,4 +32,21 @@ public class Suma {
 		return num1 + num2;
 		
 	}
+	
+	/** 
+	 * <b>Método 2:</b>  Suma de dos números enteros, tendrá 2 parámetros de entrada y uno de salida que será la solución.
+	 *
+	 * @param num1 
+	 * 			Primer número a sumar que introduce el usuario (int)
+	 * @param num2 
+	 * 			Segundo número a sumar que introduce el usuario (int)
+	 *
+	 * @return <b>sum2</b> 
+	 * 			Suma de los parámetros num1 y num2 (int)
+	 * 
+	 */
+
+	public int sumar2 (int num1, int num2) {
+		return num1 + num2;
+	}
 }
