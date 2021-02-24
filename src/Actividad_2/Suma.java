@@ -68,4 +68,25 @@ public class Suma {
 	public double sumar3 (double num1, double num2, double num3) {
 		return num1 + num2 + num3;
 	}
+	
+
+	
+	/** 
+	 *<b>Método 4:</b>  Suma con valor acumulado, tendrá un parámetro de entrada y la clase deberá de guardar el valor acumulado.
+	 *  
+	 * @param num1 
+	 * 			Representa el número a sumar que introduce el usuario para que se sume al acumulado en memoria (double)
+	 *
+	 * @return <b>sum4</b> 
+	 * 			Devuelve la resta de acum y num1 (double)
+	 */
+	
+	double acum = 0;
+	
+	public double sumar4 (double num1) {
+		
+		double sum4 = acum - num1;
+		acum = sum4;
+		return sum4;
+	}
 }
