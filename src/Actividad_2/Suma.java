@@ -49,4 +49,23 @@ public class Suma {
 	public int sumar2 (int num1, int num2) {
 		return num1 + num2;
 	}
+	
+	/** 
+	 * <b>Método 3:</b>  Suma de tres números reales, tendrá 3 parámetros de entrada y uno de salida que será la solución.
+	 * 
+	 * @param num1 
+	 * 			Primer número a sumar que introduce el usuario, de tipo real (double)
+	 * @param num2 
+	 * 			Segundo número a sumar que introduce el usuario, (double)
+	 * @param num3 
+	 * 			Tercer número a sumar que introduce el usuario, (double)
+	 * 
+	 * @return <b>sum3</b> 
+	 * 			Suma de los parámetros num1, num2 y num3
+	 * 
+	 */
+	
+	public double sumar3 (double num1, double num2, double num3) {
+		return num1 + num2 + num3;
+	}
 }
