@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-
+		Suma instanciaSuma = new Suma();
 		Division instanciaDivision = new Division();
 
 		Scanner scanner = new Scanner(System.in);
@@ -34,6 +34,20 @@ public class Main {
 			operacion = scanner.nextLine();
 
 			switch (operacion) {
+
+			case "suma": {
+				try {
+					double resultado;
+					resultado = instanciaSuma.sumar2(ope1, ope2);
+
+					System.out.println(
+							"El resultado de la suma de: " + ope1 + " y " + ope2 + " es igual a: " + resultado);
+				} catch (Exception e) {
+					System.err.println("El programa ha dado una excepción. " + e.getMessage());
+				}
+
+			}
+				break;
 
 			case "division": {
 				try {
