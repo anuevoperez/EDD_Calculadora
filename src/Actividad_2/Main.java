@@ -5,15 +5,20 @@ import java.util.Scanner;
 /*
 * @author <b>Raúl Lópes Lopez - Adrián Nuevo Pérez - Carlos Fuentes Vázquez</b>
 * @version 3.0
-*/ 
+*/
 
 public class Main {
 
 	public static void main(String[] args) {
+
+		// Creación de objetos para probar los métodos.
+
 		Suma instanciaSuma = new Suma();
 		Resta instanciaResta = new Resta();
 		Division instanciaDivision = new Division();
 		Multiplicacion instanciaMultiplicacion = new Multiplicacion();
+
+		// Creación del scanner para recoger datos por consola.
 
 		Scanner scanner = new Scanner(System.in);
 		String operacion = "";
@@ -27,6 +32,8 @@ public class Main {
 
 			ope1 = Integer.parseInt(scanner.nextLine());
 
+			// Siguiente línea.
+
 			System.out.println(
 					"----------------------------------------------------------------------------------------------.");
 			System.out.println("Introduzca el segundo operador.");
@@ -39,6 +46,15 @@ public class Main {
 					"Introduzca operación: suma, resta, multiplicacion, division o exit para finalizar la ejecución.");
 
 			operacion = scanner.nextLine();
+
+			/*
+			 * Empleamos el switch para que el usuario pueda escoger entre las operaciones.
+			 * 
+			 * Con el switch va a comparar el método establecido, y una vez compare, cuando
+			 * encuentre su método implantado similar, va a dejar de recorrer el código en
+			 * ese punto. Con el "break" salimos del bucle para que no siga recorriendo las
+			 * demás líneas de código.
+			 */
 
 			switch (operacion) {
 
@@ -95,6 +111,11 @@ public class Main {
 				System.out.println("La opción no es correcta.");
 			}
 			}
+
+			// Utilizamos la excepción del bucle "do" en "while" para indentificar cuando la
+			// consola va a dejar de repetir el proceso del bucle.
+
+			// Mientras operación no sea igual a exit.
 
 		} while (!operacion.equalsIgnoreCase("exit"));
 
