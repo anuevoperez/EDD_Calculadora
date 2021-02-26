@@ -1,5 +1,15 @@
 package Actividad_2;
 
+/**
+ * Representa la operación de resta; ésta recibe los parámetros que introduce el usuario, y procede a realizar la operación aritmética
+ * siempre que los parámetros, se encuentren dentro del dominio matemático designado a cada tipo de resta. 
+ * 
+ * 
+ * @author <b>Carlos Fuentes Vázquez</b>
+ * @version 2.0
+ * 
+ */
+
 public class Resta {
 	
 	/** 

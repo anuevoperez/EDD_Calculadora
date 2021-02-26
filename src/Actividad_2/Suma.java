@@ -1,6 +1,15 @@
 
 package Actividad_2;
 
+/**
+ * Representa la operación de suma; ésta recibe los parámetros que introduce el usuario, y procede a realizar la operación aritmética
+ * siempre que los parámetros, se encuentren dentro del dominio matemático designado a cada tipo de suma. 
+ * 
+ * 
+ * @author <b>Raúl Lópes López</b>
+ * @version 2.0
+ * 
+ */
 
 public class Suma {
 	/*
