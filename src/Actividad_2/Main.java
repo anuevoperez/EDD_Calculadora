@@ -6,6 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Suma instanciaSuma = new Suma();
+		Resta instanciaResta = new Resta ();
 		Division instanciaDivision = new Division();
 
 		Scanner scanner = new Scanner(System.in);
@@ -45,6 +46,15 @@ public class Main {
 				} 
 
 				break;
+				
+			case "resta": {
+				double resultado;
+				resultado = instanciaResta.restar2(ope1, ope2);
+				
+				System.out.println("El resultado de la resta entre: " + ope1 + " y " + ope2 + " es igual a: " + resultado);
+				
+			}
+				break;
 
 			case "division": {
 				try {
@@ -71,6 +81,8 @@ public class Main {
 			}
 
 		} while (!operacion.equalsIgnoreCase("exit"));
+		
+		scanner.close();
 
 	}
 
