@@ -6,7 +6,7 @@ package Actividad_2;
  * 
  * 
  * @author <b>Carlos Fuentes Vázquez</b>
- * @version 2.0
+ * @version 3.0
  * 
  */
 

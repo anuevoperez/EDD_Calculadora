@@ -8,8 +8,8 @@ package Actividad_2;
  * Por ejemplo: Si en producto2, el usuario introduce operandos que no son de tipo entero, 
  * pedirá introducir ese tipo de números para poder realizar continuar con la operación.
  *
- * @author <b>Mónica de la Puebla Pascual</b>
- * @version 2.0
+ * @author <b>Raúl Lópes Lopez - Adrián Nuevo Pérez - Carlos Fuentes Vázquez</b>
+ * @version 3.0
  * 
  */
 
