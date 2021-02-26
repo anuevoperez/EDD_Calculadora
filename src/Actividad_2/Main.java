@@ -36,17 +36,14 @@ public class Main {
 			switch (operacion) {
 
 			case "suma": {
-				try {
+				
 					double resultado;
 					resultado = instanciaSuma.sumar2(ope1, ope2);
 
 					System.out.println(
 							"El resultado de la suma de: " + ope1 + " y " + ope2 + " es igual a: " + resultado);
-				} catch (Exception e) {
-					System.err.println("El programa ha dado una excepción. " + e.getMessage());
-				}
+				} 
 
-			}
 				break;
 
 			case "division": {
