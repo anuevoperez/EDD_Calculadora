@@ -6,8 +6,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		Suma instanciaSuma = new Suma();
-		Resta instanciaResta = new Resta ();
+		Resta instanciaResta = new Resta();
 		Division instanciaDivision = new Division();
+		Multiplicacion instanciaMultiplicacion = new Multiplicacion();
 
 		Scanner scanner = new Scanner(System.in);
 		String operacion = "";
@@ -37,22 +38,32 @@ public class Main {
 			switch (operacion) {
 
 			case "suma": {
-				
-					double resultado;
-					resultado = instanciaSuma.sumar2(ope1, ope2);
 
-					System.out.println(
-							"El resultado de la suma de: " + ope1 + " y " + ope2 + " es igual a: " + resultado);
-				} 
+				double resultado;
+				resultado = instanciaSuma.sumar2(ope1, ope2);
+
+				System.out.println("El resultado de la suma de: " + ope1 + " y " + ope2 + " es igual a: " + resultado);
+			}
 
 				break;
-				
+
 			case "resta": {
 				double resultado;
 				resultado = instanciaResta.restar2(ope1, ope2);
-				
-				System.out.println("El resultado de la resta entre: " + ope1 + " y " + ope2 + " es igual a: " + resultado);
-				
+
+				System.out.println(
+						"El resultado de la resta entre: " + ope1 + " y " + ope2 + " es igual a: " + resultado);
+
+			}
+				break;
+
+			case "multiplicacion": {
+				double resultado;
+				resultado = instanciaMultiplicacion.multiplicar2(ope1, ope2);
+
+				System.out.println("El resultado de la multiplicación entre: " + ope1 + " y " + ope2 + " es igual a: "
+						+ resultado);
+
 			}
 				break;
 
@@ -81,7 +92,7 @@ public class Main {
 			}
 
 		} while (!operacion.equalsIgnoreCase("exit"));
-		
+
 		scanner.close();
 
 	}
