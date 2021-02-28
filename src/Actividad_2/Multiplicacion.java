@@ -1,4 +1,3 @@
-
 package Actividad_2;
 
 /**
@@ -28,7 +27,8 @@ public class Multiplicacion {
 	 * 
 	 */
 	public double multiplicar1 (double num1, double num2) {
-		return num1 * num2;
+		double roundResultado = Math.round((num1*num2)*1000000000)/1000000000.0;
+		return roundResultado;
 	}
 	
 	/** 
@@ -64,7 +64,8 @@ public class Multiplicacion {
 	 */
 	
 	public double multiplicar3 (double num1, double num2, double num3) {
-		return num1 * num2 * num3;
+		double roundResultado = Math.round((num1*num2*num3)*1000000000)/1000000000.0;
+		return roundResultado;
 	}
 	
 	/** 
@@ -81,8 +82,8 @@ public class Multiplicacion {
 	 */
 	
 	public double multiplicar4 (double num1, double num2) {
-		return Math.pow(num1, num2);
+		double roundResultado = Math.round((Math.pow(num1, num2))*1000000000)/1000000000.0;
+		return roundResultado;
 	}
 	
 }
-
