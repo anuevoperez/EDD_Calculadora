@@ -63,4 +63,23 @@ public class Resta {
 		return roundResultado;
 	}
 
+	/**
+	 * <b>Método 4:</b> Resta con valor acumulado, tendrá un parámetro de entrada y
+	 * la clase deberá de guardar el valor acumulado.
+	 * 
+	 * @param num1 Representa el número a restar que introduce el usuario para que
+	 *             se reste al acumulado en memoria (double)
+	 *
+	 * @return <b>rest4</b> Devuelve la resta de acum y num1 (double)
+	 */
+
+	double acum = 0;
+
+	public double restar4(double num1) {
+
+		double roundResultado = Math.round((acum - num1) * 1000000000) / 1000000000.0;
+		acum = roundResultado;
+		return roundResultado;
+	}
+
 }
