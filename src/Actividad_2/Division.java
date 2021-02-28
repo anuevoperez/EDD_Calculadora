@@ -65,10 +65,11 @@ public class Division {
 	 */
 
 	public double dividir3 (double num1) throws Exception {
+		double roundResultado = Math.round((1/num1)*1000000000)/1000000000.0;
 		if(num1==0) {
 			throw new Exception("No se puede calcular el inverso de 0 porque obtendrémos una excepción de valor aritmético, pues el resultado es igual a infinito");
 		}
-		return 1/num1;
+		return roundResultado;
 		
 	}
 	
@@ -84,9 +85,10 @@ public class Division {
 	 */
 		
 	public double dividir4 (double num1) throws Exception {
+		double roundResultado = Math.round((Math.sqrt(num1))*1000000000)/1000000000.0;
 		if(num1<0) {
 			throw new Exception("La raíz solo se pueden calcular de números positivos");
 		}
-		return  Math.sqrt(num1);
+		return  roundResultado;
 	}
 }
