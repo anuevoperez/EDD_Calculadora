@@ -96,7 +96,7 @@ public class Suma {
 	
 	public double sumar4 (double num1) {
 		
-		double sum4 = acum - num1;
+		double sum4 = acum + num1;
 		acum = sum4;
 		return sum4;
 	}
