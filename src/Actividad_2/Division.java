@@ -6,7 +6,7 @@ package Actividad_2;
  * 
  * 
  * @author <b>Adrián Nuevo Pérez</b>
- * @version 4.0
+ * @version 3.0
  * 
  */
 
