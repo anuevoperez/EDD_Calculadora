@@ -1,5 +1,4 @@
 package Actividad_2;
-
 /**
  * Representa la operación de resta; ésta recibe los parámetros que introduce el usuario, y procede a realizar la operación aritmética
  * siempre que los parámetros, se encuentren dentro del dominio matemático designado a cada tipo de resta. 
@@ -25,7 +24,8 @@ public class Resta {
 	 */
 	
 	public double restar1 (double num1, double num2) {
-		return num1 - num2;
+		double roundResultado = Math.round((num1-num2)*1000000000)/1000000000.0;
+		return roundResultado;
 	}
 	
 	/** 
@@ -60,7 +60,8 @@ public class Resta {
 	 */
 	
 	public double restar3 (double num1, double num2, double num3) {
-		return num1 - num2 - num3;
+		double roundResultado = Math.round((num1-num2-num3)*1000000000)/1000000000.0;
+		return roundResultado;
 	}
 	
 	/** 
@@ -77,9 +78,9 @@ public class Resta {
 	
 	public double restar4 (double num1) {
 		
-		double rest4 = acum - num1;
-		acum = rest4;
-		return rest4;
+		double roundResultado = Math.round((acum-num1)*1000000000)/1000000000.0;		
+		acum = roundResultado;
+		return roundResultado;
 	}
 	
 }
