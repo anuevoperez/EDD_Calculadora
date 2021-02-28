@@ -6,7 +6,7 @@ package Actividad_2;
  * 
  * 
  * @author <b>Adrián Nuevo Pérez</b>
- * @version 3.0
+ * @version 4.0
  * 
  */
 
@@ -26,10 +26,11 @@ public class Division {
 	 */
 
 	public double dividir1 (double num1, double num2) throws Exception {
+		double roundResultado = Math.round((num1/num2)*1000000000)/1000000000.0;
 		if(num2==0) {
 			throw new Exception("No se puede dividir entre 0 porque obtendrémos una excepción de valor aritmético, pues el resultado es igual a infinito.");
 		}
-		return num1 / num2;
+		return roundResultado;
 	}
 	
 	/** 
