@@ -8,7 +8,7 @@ package Actividad_2;
  * 
  * 
  * @author <b>Carlos Fuentes Vázquez</b>
- * @version 3.0
+ * @version 4.0
  * 
  */
 
@@ -22,6 +22,9 @@ public class Resta {
 	 * @param num2 Segundo número a restar que introduce el usuario (double)
 	 *
 	 * @return <b>rest1</b> Devuelve la resta de num1 y num2
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 * 
 	 */
 
@@ -38,6 +41,9 @@ public class Resta {
 	 * @param num2 Segundo número a restar que introduce el usuario (int)
 	 *
 	 * @return res2 Devuelve la resta de num1 y num2 (int)
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 * 
 	 */
 
@@ -56,6 +62,10 @@ public class Resta {
 	 *
 	 * @return <b>rest3</b> Devuelve la resta de los parámetros num1, num2 y num3
 	 *         (double)
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
+	 * 
 	 */
 
 	public double restar3(double num1, double num2, double num3) {
@@ -71,6 +81,10 @@ public class Resta {
 	 *             se reste al acumulado en memoria (double)
 	 *
 	 * @return <b>rest4</b> Devuelve la resta de acum y num1 (double)
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
+	 * 
 	 */
 
 	double acum = 0;
