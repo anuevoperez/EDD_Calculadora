@@ -42,14 +42,13 @@ class TestDivision {
 		assertEquals(d.dividir1(-546, -2), 273);
 		
 		// Hacemos lo mismo empleando el 0
-		
+
 		assertEquals(d.dividir1(0, 456), 0);
 		assertEquals(d.dividir1(0, 2.345), 0);
 		
 		/**
 		 *  Con assertThrows comprobamos que la excepción para las casuísticas concebida,
-		 *  es decir, cuando el denominador es 0. La prueba es con números positivos, 
-		 *  decimales y negativos.
+		 *  es decir, cuando el denominador es 0. 
 		 *  
 		 */
 		
@@ -64,7 +63,7 @@ class TestDivision {
 		
 		/**
 		 * Con assertEquals esperamos en el resultado coincida con el valor esperado
-		 * Probamos con números positivos y con decimales
+		 * Probamos con números positivos y negativos
 		 * 
 		 */
 		
@@ -80,8 +79,7 @@ class TestDivision {
 		
 		/**
 		 *  Con assertThrows comprobamos que la excepción para las casuísticas concebida,
-		 *  es decir, cuando el denominador es 0. La prueba es con números positivos, 
-		 *  decimales y negativos.
+		 *  es decir, cuando el denominador es 0.
 		 *  
 		 */
 		
@@ -96,7 +94,7 @@ class TestDivision {
 		
 		/**
 		 * Con assertEquals esperamos en el resultado coincida con el valor esperado
-		 * Probamos con números positivos y con decimales.
+		 * Probamos con números positivos y con negativos.
 		 * 
 		 */
 		
@@ -114,8 +112,7 @@ class TestDivision {
 		
 		/**
 		 *  Con assertThrows comprobamos que la excepción para las casuística concebida,
-		 *  es decir, cuando el denominador es 0. La prueba es con números positivos, 
-		 *  decimales y negativos.
+		 *  es decir, cuando el parametro es 0. 
 		 *  
 		 */
 		
@@ -140,8 +137,7 @@ class TestDivision {
 		
 		/**
 		 *  Con assertThrows comprobamos que la excepción para las casuística concebida,
-		 *  es decir, cuando el denominador es 0. La prueba es con números positivos, 
-		 *  decimales y negativos.
+		 *  es decir, cuando el parametro es negativo
 		 *  
 		 */
 		
