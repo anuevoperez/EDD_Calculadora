@@ -48,7 +48,7 @@ class TestDivision {
 		
 		/**
 		 *  Con assertThrows comprobamos que la excepción para las casuísticas concebida,
-		 *  es decir, cuando 0 es numerador. La prueba es con números positivos, 
+		 *  es decir, cuando el denominador es 0. La prueba es con números positivos, 
 		 *  decimales y negativos.
 		 *  
 		 */
@@ -80,7 +80,7 @@ class TestDivision {
 		
 		/**
 		 *  Con assertThrows comprobamos que la excepción para las casuísticas concebida,
-		 *  es decir, cuando 0 es numerador. La prueba es con números positivos, 
+		 *  es decir, cuando el denominador es 0. La prueba es con números positivos, 
 		 *  decimales y negativos.
 		 *  
 		 */
@@ -96,7 +96,7 @@ class TestDivision {
 		
 		/**
 		 * Con assertEquals esperamos en el resultado coincida con el valor esperado
-		 * Probamos con números positivos y con decimales
+		 * Probamos con números positivos y con decimales.
 		 * 
 		 */
 		
@@ -105,7 +105,7 @@ class TestDivision {
 		
 		/** 
 		 * En este caso se prueba el comportamiento con números de varios dígitos decimales 
-		 * tanto positivos como negativos
+		 * tanto positivos como negativos.
 		 * 
 		 */
 		
@@ -113,8 +113,8 @@ class TestDivision {
 		assertEquals(d.dividir3(-5.64), -0.1773049645390071);
 		
 		/**
-		 *  Con assertThrows comprobamos que la excepción para las casuísticas concebida,
-		 *  es decir, cuando 0 es numerador. La prueba es con números positivos, 
+		 *  Con assertThrows comprobamos que la excepción para las casuística concebida,
+		 *  es decir, cuando el denominador es 0. La prueba es con números positivos, 
 		 *  decimales y negativos.
 		 *  
 		 */
@@ -139,8 +139,8 @@ class TestDivision {
 		assertEquals(d.dividir4(0), 0);
 		
 		/**
-		 *  Con assertThrows comprobamos que la excepción para las casuísticas concebida,
-		 *  es decir, cuando 0 es numerador. La prueba es con números positivos, 
+		 *  Con assertThrows comprobamos que la excepción para las casuística concebida,
+		 *  es decir, cuando el denominador es 0. La prueba es con números positivos, 
 		 *  decimales y negativos.
 		 *  
 		 */
