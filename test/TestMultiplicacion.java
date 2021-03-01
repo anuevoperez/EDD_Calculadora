@@ -113,8 +113,6 @@ class TestMultiplicacion {
 		assertEquals(m.multiplicar4(2, 0), 1);
 		assertEquals(m.multiplicar4(0, 2), 0);
 		
-		//assertEquals(m.multiplicar4(25454, 25),5);
-		
 	}
 	
 
