@@ -119,7 +119,7 @@ class TestDivision {
 		assertThrows(Exception.class, () -> d.dividir3(0));
 	}
 	
-	// Prueba unitaria método 3 de la clase División @see <b>Division</b>
+	// Prueba unitaria método 4 de la clase División @see <b>Division</b>
 	
 	@Test
 	public void testDividir4 () throws Exception {

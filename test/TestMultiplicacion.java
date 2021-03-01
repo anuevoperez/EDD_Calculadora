@@ -42,7 +42,7 @@ class TestMultiplicacion {
 		assertEquals(m.multiplicar1(2.4422, 4.446132), 10.858343570400002);
 	}
 	
-	// Prueba unitaria método 1 de la clase División @see <b>Multiplicacion</b>
+	// Prueba unitaria método 2 de la clase División @see <b>Multiplicacion</b>
 	
 	@Test
 	public void testMultiplicar2() {
@@ -50,7 +50,7 @@ class TestMultiplicacion {
 
 		/**
 		 * Con assertEquals esperamos en el resultado coincida con el valor esperado
-		 * Probamos con números positivos, negativos, y con decimales
+		 * Probamos con números positivos y negativos
 		 * 
 		 */
 		
@@ -59,7 +59,7 @@ class TestMultiplicacion {
 		assertEquals(m.multiplicar2(4, -3), -12);
 		assertEquals(m.multiplicar2(-4, -3), 12);
 
-		// Probamos con números negativos
+		// Probamos con el 0
 		
 		assertEquals(m.multiplicar2(4, 0), 0);
 		assertEquals(m.multiplicar2(0, 3), 0);
@@ -67,7 +67,7 @@ class TestMultiplicacion {
 		assertEquals(m.multiplicar2(0, -3), 0);
 	}
 	
-	// Prueba unitaria método 1 de la clase División @see <b>Multiplicacion</b>
+	// Prueba unitaria método 3 de la clase División @see <b>Multiplicacion</b>
 	
 	@Test
 	public void testMultiplicar3() {
@@ -90,7 +90,7 @@ class TestMultiplicacion {
 		assertEquals(m.multiplicar3(4.35, 3.1, 6.36), 85.7646);
 	}
 	
-	// Prueba unitaria método 1 de la clase División @see <b>Multiplicacion</b>
+	// Prueba unitaria método 4 de la clase División @see <b>Multiplicacion</b>
 	
 	@Test
 	public void testMultiplicar4 () {

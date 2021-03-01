@@ -36,7 +36,7 @@ class TestSuma {
 		assertEquals(s.sumar1(-1.96, -4.61), -6.57);
 	}
 
-	// Prueba unitaria método 1 de la clase División @see <b>Suma</b>
+	// Prueba unitaria método 2 de la clase División @see <b>Suma</b>
 	
 	@Test
 	public void testSumar2 () {
@@ -44,7 +44,7 @@ class TestSuma {
 
 		/**
 		 * Con assertEquals esperamos en el resultado coincida con el valor esperado
-		 * Probamos con números positivos, negativos, y con decimales
+		 * Probamos con números positivos y negativos
 		 * 
 		 */
 		
@@ -54,7 +54,7 @@ class TestSuma {
 		assertEquals(s.sumar2(-7, -9), -16);
 	}
 
-	// Prueba unitaria método 1 de la clase División @see <b>Suma</b>
+	// Prueba unitaria método 3 de la clase División @see <b>Suma</b>
 	
 	@Test
 	public void testSumar3 () {
@@ -62,7 +62,7 @@ class TestSuma {
 
 		/**
 		 * Con assertEquals esperamos en el resultado coincida con el valor esperado
-		 * Probamos con números positivos, negativos, y con decimales
+		 * Probamos con números positivos, negativos y el 0
 		 * 
 		 */
 		
@@ -80,9 +80,10 @@ class TestSuma {
 		assertEquals(s.sumar3(0, 5, -9), -4);
 		assertEquals(s.sumar3(2, 0, 9), 11);
 		assertEquals(s.sumar3(2, 5, 0), 7);
+		
 	}
 
-	// Prueba unitaria método 1 de la clase División @see <b>Suma</b>
+	// Prueba unitaria método 4 de la clase División @see <b>Suma</b>
 	
 	@Test
 	public void testSumar4 () {
@@ -100,6 +101,7 @@ class TestSuma {
 		assertEquals(s.sumar4(-8), 0);
 		assertEquals(s.sumar4(-5), -5);
 		assertEquals(s.sumar4(10), 5);
+		assertEquals(s.sumar4(10.26), 15.26);
 	}
 
 }

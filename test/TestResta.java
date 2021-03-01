@@ -37,10 +37,12 @@ class TestResta {
 
 		assertEquals(r.restar1(-4, 0), -4);
 		assertEquals(r.restar1(0, -2), 2);
+		
+		assertEquals(r.restar1(445.457, 421.396), 24.061);
 
 	}
 	
-	// Prueba unitaria método 1 de la clase División @see <b>Resta</b>
+	// Prueba unitaria método 2 de la clase División @see <b>Resta</b>
 	
 	@Test
 	public void testResta2() {
@@ -48,7 +50,7 @@ class TestResta {
 
 		/**
 		 * Con assertEquals esperamos en el resultado coincida con el valor esperado
-		 * Probamos con números positivos, negativos, y con decimales
+		 * Probamos con números positivos y negativos
 		 * 
 		 */
 		
@@ -61,7 +63,7 @@ class TestResta {
 		assertEquals(r.restar2(0, -2), 2);
 	}
 
-	// Prueba unitaria método 1 de la clase División @see <b>Resta</b>
+	// Prueba unitaria método 3 de la clase División @see <b>Resta</b>
 	
 	@Test
 	public void testResta3() {
@@ -69,7 +71,7 @@ class TestResta {
 
 		/**
 		 * Con assertEquals esperamos en el resultado coincida con el valor esperado
-		 * Probamos con números positivos, negativos, y con decimales
+		 * Probamos con números positivos y negativos
 		 * 
 		 */
 		
@@ -80,7 +82,7 @@ class TestResta {
 
 	}
 	
-	// Prueba unitaria método 1 de la clase División @see <b>Resta</b>
+	// Prueba unitaria método 4 de la clase División @see <b>Resta</b>
 
 	@Test
 	private void testResta4() {
