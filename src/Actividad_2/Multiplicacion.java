@@ -8,7 +8,7 @@ package Actividad_2;
  * pedirá introducir ese tipo de números para poder realizar continuar con la operación.
  *
  * @author <b>Raúl Lópes Lopez - Adrián Nuevo Pérez - Carlos Fuentes Vázquez</b>
- * @version 3.0
+ * @version 4.0
  * 
  */
 
@@ -24,6 +24,9 @@ public class Multiplicacion {
 	 * 
 	 * @return <b>product1</b> 
 	 * 			Devuelve el producto de num1 y num2 (double)
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 * 
 	 */
 	public double multiplicar1 (double num1, double num2) {
@@ -61,6 +64,9 @@ public class Multiplicacion {
 	 * @return <b>product3</b>  
 	 * 			Devuelve el producto de los parámetros num1, num2 y num3 (double)
 	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
+	 * 
 	 */
 	
 	public double multiplicar3 (double num1, double num2, double num3) {
@@ -78,6 +84,9 @@ public class Multiplicacion {
 	 *
 	 * @return <b>potencia</b> 
 	 * 			Devuelve el producto de num1 por sí mismo tantas veces como indique el num2
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 * 
 	 */
 	
