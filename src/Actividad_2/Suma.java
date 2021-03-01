@@ -40,7 +40,8 @@ public class Suma {
 	 */
 	
 	public double sumar1 (double num1, double num2) {
-		return num1 + num2;
+		double roundResultado = Math.round((num1+num2)*1000000000)/1000000000.0;
+		return roundResultado;
 		
 	}
 	
@@ -77,7 +78,8 @@ public class Suma {
 	 */
 	
 	public double sumar3 (double num1, double num2, double num3) {
-		return num1 + num2 + num3;
+		double roundResultado = Math.round((num1+num2+num3)*1000000000)/1000000000.0;
+		return roundResultado;
 	}
 	
 
@@ -95,9 +97,8 @@ public class Suma {
 	double acum = 0;
 	
 	public double sumar4 (double num1) {
-		
-		double sum4 = acum + num1;
-		acum = sum4;
-		return sum4;
+		double roundResultado = Math.round((acum+num1)*1000000000)/1000000000.0;		
+		acum = roundResultado;
+		return roundResultado;
 	}
 }
