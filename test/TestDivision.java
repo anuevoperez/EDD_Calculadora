@@ -45,7 +45,6 @@ class TestDivision {
 		
 		assertEquals(d.dividir1(0, 456), 0);
 		assertEquals(d.dividir1(0, 2.345), 0);
-		assertEquals(d.dividir1(0, -7.456), 0);
 		
 		/**
 		 *  Con assertThrows comprobamos que la excepción para las casuísticas concebida,
