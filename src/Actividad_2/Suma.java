@@ -7,7 +7,7 @@ package Actividad_2;
  * 
  * 
  * @author <b>Raúl Lópes López</b>
- * @version 3.0
+ * @version 4.0
  * 
  */
 
@@ -37,6 +37,8 @@ public class Suma {
 	 * @return <b>sum1</b> 
 	 * 			Suma de los parámetros num1 y num2 (double). 
 	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 */
 	
 	public double sumar1 (double num1, double num2) {
@@ -75,6 +77,9 @@ public class Suma {
 	 * @return <b>sum3</b> 
 	 * 			Suma de los parámetros num1, num2 y num3
 	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
+	 * 
 	 */
 	
 	public double sumar3 (double num1, double num2, double num3) {
@@ -92,6 +97,9 @@ public class Suma {
 	 *
 	 * @return <b>sum4</b> 
 	 * 			Devuelve la resta de acum y num1 (double)
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 */
 	
 	double acum = 0;
