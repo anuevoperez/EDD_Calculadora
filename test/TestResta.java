@@ -38,7 +38,6 @@ class TestResta {
 		assertEquals(r.restar1(-4, 0), -4);
 		assertEquals(r.restar1(0, -2), 2);
 
-		// assertEquals(r.restar1(445.457, 421.396), 2);
 	}
 	
 	// Prueba unitaria método 1 de la clase División @see <b>Resta</b>
@@ -79,7 +78,6 @@ class TestResta {
 		assertEquals(r.restar3(-4, -96, 45), 47);
 		assertEquals(r.restar3(-4, -96, -45), 137);
 
-		// assertEquals(r.restar3(445.457, 421.396, 41.35), 2);
 	}
 	
 	// Prueba unitaria método 1 de la clase División @see <b>Resta</b>
