@@ -6,7 +6,7 @@ package Actividad_2;
  * 
  * 
  * @author <b>Adrián Nuevo Pérez</b>
- * @version 3.0
+ * @version 4.0
  * 
  */
 
@@ -22,6 +22,9 @@ public class Division {
 	 * 
 	 * @return <b>div1</b>
 	 * 			Resultado del cociente de num1 entre num2 (double)
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 * 
 	 */
 
@@ -62,6 +65,9 @@ public class Division {
 	 * 
 	 * @return <b>div3</b>
 	 * 			Resultado es 1 y se obtiene de num1 = num1 (-1) (double)
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 */
 
 	public double dividir3 (double num1) throws Exception {
@@ -81,6 +87,9 @@ public class Division {
 	 * 
 	 * @return <b>div4</b>
 	 * 			Devolverá el resultado de Math.sqrt(num1). (double)
+	 * 
+	 * Como caso especial, se ha tenido en cuenta el ajuste de decimales,
+	 * empleando para ello la propiedad round
 	 * 
 	 */
 		
